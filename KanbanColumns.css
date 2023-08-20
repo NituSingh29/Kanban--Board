@@ -1,0 +1,20 @@
+/* KanbanColumns.css */
+.kanban-column-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .kanban-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .kanban-column {
+      min-width: auto;
+      width: 100%;
+    }
+  }
+  

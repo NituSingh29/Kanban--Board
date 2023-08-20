@@ -1,0 +1,49 @@
+/* KanbanCard.css */
+.kanban-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .kanban-card:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .kanban-card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .kanban-card-tag {
+    font-size: 14px;
+    color: #777777;
+    margin-top: 4px;
+  }
+  
+  .kanban-card-priority {
+    font-size: 14px;
+    color: #ff6b6b;
+    font-weight: bold;
+  }
+  
+  .kanban-card-user {
+    font-size: 14px;
+    color: #333333;
+    margin-top: 8px;
+  }
+  
+  .kanban-card-status {
+    font-size: 14px;
+    color: #1e87f0;
+    margin-top: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .kanban-card {
+      width: 100%;
+    }
+  }
+  
